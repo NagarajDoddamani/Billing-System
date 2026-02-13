@@ -1,0 +1,7 @@
+JWT_SECRET key it random for url and JWT verification 
+generate by : [ node -e "console.log(require('crypto').randomBytes(32).toString('hex'))"  ]
+
+how to set up mongoDB for any stack...?
+
+
+use Postman to check the API Working

@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@media print {
+
+  body * {
+    visibility: hidden;
+  }
+
+  .invoice-container,
+  .invoice-container * {
+    visibility: visible;
+  }
+
+  .invoice-container {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+  }
+
+  .print-hide {
+    display: none !important;
+  }
+}
+
+@page {
+  size: A4;
+  margin: 20mm;
+}
+
