@@ -8,10 +8,17 @@ function Landing() {
 
       {/* Navbar */}
       <header className="flex justify-between items-center px-8 py-6">
-        <h1 className="text-2xl font-bold text-[#2872A1]">
-          Smart Billing
-        </h1>
-
+        {/* Logo + Brand Name */}
+        <div className="flex items-center gap-3">
+          <img
+            src="/logo.svg"
+            alt="Smart Billing Logo"
+            className="h-10 w-10"
+          />
+          <h1 className="text-2xl font-bold text-[#2872A1]">
+            Smart Billing
+          </h1>
+        </div>
         <div className="space-x-4">
           <button
             onClick={() => navigate("/login")}
