@@ -11,7 +11,7 @@ function Landing() {
         {/* Logo + Brand Name */}
         <div className="flex items-center gap-3">
           <img
-            src="/logo.svg"
+            src="logo.svg"
             alt="Smart Billing Logo"
             className="h-10 w-10"
           />
